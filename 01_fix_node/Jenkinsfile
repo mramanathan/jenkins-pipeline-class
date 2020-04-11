@@ -1,0 +1,9 @@
+pipeline {
+    agent 
+
+    stages {
+        stage() {
+            echo "fix the node name"
+        }
+    }
+}

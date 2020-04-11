@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("greet") {
+            steps {
+                echo "Clone the git repo"
+                git url:"https://github.com/mramanathan/jenkins-pipeline-class", branch:"master"
+            }
+        }
+    }
+}
