@@ -1,0 +1,8 @@
+@Library('jenkins-shared-libs') _
+
+buildImage {
+    imageName    = "print-container-name"
+    imageTag     = "v0.1"
+    testImage    = true
+    publishImage = false
+}
