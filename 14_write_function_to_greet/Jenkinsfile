@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("scm") {
+            steps {
+                echo "Clone the git repo"
+                git url:"https://github.com/mramanathan/jenkins-pipeline-class", branch:"master"
+            }
+        }
+        stage("scm info") {
+            steps {
+                script {
+                    sh "git rev-parse --verify --short=7 HEAD"
+                    sh 'printenv'
+                }
+            }
+        } 
+    }
+}
