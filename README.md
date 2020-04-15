@@ -29,6 +29,7 @@ Lessons to learn Jenkins pipeline-as-code by practice.
 4. With the replaced content, `Run` the script, analyze the build log (i.e. console output) and fix the errors.
 
 Hint:
+
 Inside each folder, there is a `README` with the hint on how to fix the errors.
 
 
