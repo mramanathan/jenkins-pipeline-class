@@ -2,7 +2,7 @@
 Lessons to learn Jenkins pipeline-as-code by practice.
 
 ## Where to start?
-1. You should have access to Jenkins instance.
+1. You should have access to a functional Jenkins instance, running >v2.yyy.z
 
 2. Ensure, in the above Jenkins instance, with your login creds, it is possible to,
 
